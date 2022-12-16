@@ -1,0 +1,8 @@
+function RenderingArrayOfObjects(){
+  const data=[
+      {
+          "firstname":"demo",
+          "lastname":"demo",
+          "dni":"1234"
+      }
+  }
