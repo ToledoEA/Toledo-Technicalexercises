@@ -1,1 +1,14 @@
+let N = 3;
+function la_matriz_es_diagonal(matriz) {
+    for (var i = 0; i < N;i++) {
+        for (var j = 0; j < N;j++) {
+            if (i !== j && matriz[i][j] !== 0) 
+              return false;
+        }
+    }
+    return true;
+}
 
+
+console.log(la_matriz_es_diagonal([[1, 0, 0], [0, 2, 0], [0, 0, 3] ]));
+console.log(la_matriz_es_diagonal([[1, 0, 0], [0, 2, 3], [0, 0, 3] ]));
