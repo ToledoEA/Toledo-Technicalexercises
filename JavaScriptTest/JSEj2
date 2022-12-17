@@ -1,0 +1,2 @@
+var s2 = "Hello World!";
+alert(s2. toLowerCase ()); 
